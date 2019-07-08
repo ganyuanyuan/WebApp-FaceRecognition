@@ -45,9 +45,11 @@ class Signin extends React.Component {
               <div className="mt3">
                 <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
                 <input
-                  className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email"
+                  className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  type="email"
                   name="email-address"
                   id="email-address"
+                  placeholder="test@gmail.com"
                   onChange = {this.onEmailChange}
                 />
               </div>
@@ -58,6 +60,7 @@ class Signin extends React.Component {
                   type="password"
                   name="password"
                   id="password"
+                  placeholder="123"
                   onChange = {this.onPasswordChange}
                 />
               </div>
